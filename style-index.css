@@ -1,0 +1,497 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/* ====Home-Page==== */
+
+.body-home {
+    background-image: url('images/kings\ table.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-heading {
+    background-color: #2D2926FF;
+    border: 6px solid #E94B3CFF;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+}
+
+.main-heading i {
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 80px;
+    color: #E94B3CFF;
+}
+
+.main-heading #home-text {
+    text-align: center;
+    padding-left: 30px;
+    font-family: magneto;
+    color: #E94B3CFF;
+    font-weight: 700;
+}
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2D2926FF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #E94B3CFF;
+    border: 5px solid #2D2926FF;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.home-menu-item:hover {
+    background-color: #2D2926FF;
+    color: #E94B3CFF;
+    border: 5px solid #E94B3CFF;
+}
+
+#bottom-tabs {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #2D2926FF;
+}
+
+#bottom-tabs a {
+    color: #E94B3CFF;
+    float: left;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#bottom-tabs a:hover {
+    background-color: #E94B3CFF;
+    color: #2D2926FF;
+}
+
+
+/* ===MEALS-PAGE-MENU=== */
+
+.header {
+    position: fixed;
+    background-color: #2D2926FF;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 5px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header p b {
+    font-family: magneto;
+    color: #E94B3CFF;
+    font-size: 30px;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.header i {
+    padding: 5px 0px 0px 5px;
+    float: left;
+    font-size: 40px;
+    color: #E94B3CFF;
+}
+
+.header i:hover {
+    color: #FCF6F5FF;
+}
+
+.body-meals {
+    background-image: url('images/kings\ table.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#meals {
+    padding-top: 50px;
+}
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    background-color: #E94B3CFF;
+    border: 5px solid #2D2926FF;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.meals-list-item i {
+    color: #2D2926FF;
+    font-size: 50px;
+}
+
+.meals-list-item:hover {
+    border: 5px solid #FCF6F5FF;
+}
+
+.meals-list-item h1 {
+    color: #2D2926FF;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+.meals-list-item i:hover {
+    color: #FCF6F5FF;
+}
+
+.meals-list-item p {
+    color: #2D2926FF;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+
+/* ======MEAL-PAGES====== */
+
+
+/* ===DETAILS=== */
+
+.body-details {
+    background-image: url('images/background-03.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#details {
+    padding: 60px;
+    background-color: #FCF6F5FF;
+    border: 6px solid #E94B3CFF;
+    border-radius: 6px;
+}
+
+.details img {
+    width: 100%;
+    border-radius: 10px;
+    border: 8px solid #E94B3CFF;
+    display: block;
+    margin: auto;
+}
+
+.details img:hover {
+    border: 8px solid #2D2926FF;
+}
+
+.details h1 {
+    font-size: 30px;
+    color: #2D2926FF;
+    text-align: center;
+    border: 5px solid #2D2926FF;
+    border-radius: 10px;
+    background-color: #E94B3CFF;
+    margin: 10px 0 0 20px;
+    padding: 5px;
+}
+
+.details h1:hover {
+    color: #E94B3CFF;
+    background-color: #2D2926FF;
+    border: 5px solid #E94B3CFF;
+}
+
+.details-extras h2 {
+    font-size: 25px;
+    text-align: left;
+    margin: 0 0 0 10px;
+    color: #E94B3CFF;
+}
+
+.details-list h2 {
+    font-size: 25px;
+    text-align: left;
+    margin: 20px 0 0 10px;
+    color: #E94B3CFF;
+}
+
+.details-info p b {
+    color: #E94B3CFF;
+}
+
+.details-info p {
+    color: #2D2926FF;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.details-extras label {
+    line-height: 20px;
+    margin-left: 10px;
+    color: #2D2926FF;
+}
+
+.details-extras label:hover {
+    color: rgb(245, 145, 30);
+}
+
+.details-extras .message {
+    width: 100%;
+    height: 50px;
+    border: 6px solid #E94B3CFF;
+    border-radius: 6px;
+}
+
+.details-extras .message::placeholder {
+    color: #E94B3CFF;
+}
+
+.details-list h2 {
+    color: #E94B3CFF;
+}
+
+.details-list ol {
+    padding-left: 28px;
+}
+
+.details-list li {
+    color: #2D2926FF;
+}
+
+.details-list li:hover {
+    color: rgb(245, 145, 30);
+}
+
+
+/* =======CONTACT-PAGE====== */
+
+.body-form {
+    background-image: url('images/kings\ table.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#form input {
+    width: 90%;
+    height: 30px;
+    margin: 5px 0;
+    border: 2px solid #2D2926FF;
+    border-radius: 4px;
+}
+
+#form input::placeholder {
+    color: #E94B3CFF;
+}
+
+textarea {
+    border: 2px solId #2D2926FF;
+}
+
+textarea::placeholder {
+    color: #E94B3CFF;
+}
+
+.submit {
+    background-color: #2D2926FF;
+    border: none;
+    color: #E94B3CFF;
+    padding: 7px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    border-style: solid;
+    margin-bottom: 4px 2px;
+    border-radius: 6px;
+}
+
+.submit:hover {
+    background-color: #E94B3CFF;
+    color: #2D2926FF;
+    border: 2px solid #2D2926FF;
+}
+
+#form p {
+    font-size: 20px;
+    color: #2D2926FF;
+    text-align: center;
+    border: 5px solid #E94B3CFF;
+    border-radius: 10px;
+    background-color: #FCF6F5FF;
+    margin: 5px 0 0 5px;
+    padding: 5px;
+}
+
+#form h1 {
+    font-size: 20px;
+    color: #2D2926FF;
+    text-align: center;
+    border: 5px solid #2D2926FF;
+    border-radius: 10px;
+    background-color: #E94B3CFF;
+    margin: 60px 0 0 5px;
+    padding: 5px;
+}
+
+#form label {
+    display: block;
+}
+
+
+/* ======ABOUT-PAGE====== */
+
+.body-about {
+    background-image: url('images/background-02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about h1 {
+    font-size: 30px;
+    color: #2D2926FF;
+    text-align: center;
+    border: 5px solid #2D2926FF;
+    border-radius: 10px;
+    background-color: #E94B3CFF;
+    margin: 60px 0 0 20px;
+    padding: 5px;
+}
+
+#about h1:hover {
+    color: #E94B3CFF;
+    background-color: #2D2926FF;
+    border: 5px solid #E94B3CFF;
+}
+
+#about {
+    font-size: 20px;
+    color: #2D2926FF;
+    text-align: center;
+    border: 5px solid #E94B3CFF;
+    border-radius: 10px;
+    background-color: #FCF6F5FF;
+    margin: 60px 0 0 20px;
+    padding: 5px;
+}
+
+#about p a {
+    color: #E94B3CFF;
+    font-size: 40px;
+}
+
+#about p a:hover {
+    color: #2D2926FF;
+}
+
+
+/* ======ORDER====== */
+
+#details h1 {
+    font-size: 30px;
+    color: #2D2926FF;
+    text-align: center;
+    border: 5px solid #2D2926FF;
+    border-radius: 10px;
+    background-color: #E94B3CFF;
+    margin: 60px 0 0 20px;
+    padding: 5px;
+}
+
+
+/* ======RESPONSIVE LAYOUT====== */
+
+@media only screen and (min-width: 600px) {
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+    #details {
+        width: 80%;
+        margin: auto;
+    }
+    #about {
+        width: 80%;
+        margin: auto;
+    }
+    #form {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    #meals {
+        width: 60%;
+        margin: auto;
+    }
+    #details {
+        width: 60%;
+        margin: auto;
+    }
+    #about {
+        width: 60%;
+        margin: auto;
+    }
+    #form {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    #meals {
+        height: 100%;
+        width: 40%;
+        margin: auto;
+    }
+    #details {
+        height: 100%;
+        width: 40%;
+        margin: auto;
+    }
+    #about {
+        height: 100%;
+        width: 40%;
+        margin: auto;
+    }
+    #form {
+        height: 100%;
+        width: 40%;
+        margin: auto;
+    }
+}
